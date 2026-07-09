@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #000000;
+}
+
+img{
+    display: block;
+    width: 583px;
+    height: 374px;
+    margin: 100px auto 0px;
+}
+
+h2{
+    display: block;
+    margin-top: 126px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+div{
+    display: block;
+    max-width: 750px;
+    margin: 16px auto 0px;
+    padding: 0px 1px;
+}
+
+#minimo{
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    border: 1px solid;
+    margin-right: 60px;
+    text-align: center;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    line-height: 100%;
+    appearance: none;
+    vertical-align: middle;
+}
+
+#maximo{
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    border: 1px solid;
+    text-align: center;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    line-height: 100%;
+    appearance: none;
+    vertical-align: middle;
+}
+
+button{
+    display: block;
+    width: 342px;
+    height: 72px;
+    margin: 50px auto 50px;
+    border-radius: 10px;
+    background-color: #AEC346;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.5px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    box-shadow: 0px 18px 40px 0px #9DBB3A59;
+}
+
+button:active{
+    opacity: 0.6;
+}
